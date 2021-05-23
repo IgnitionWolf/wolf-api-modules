@@ -1,0 +1,12 @@
+<?php
+
+namespace $NAMESPACE$;
+
+use IgnitionWolf\API\Models\Model;
+
+class $CLASS$ extends Model
+{
+    protected $fillable = $FILLABLE$;
+
+    protected $fillable_relations = [];
+}

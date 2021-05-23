@@ -1,0 +1,21 @@
+<?php
+
+namespace $NAMESPACE$;
+
+use IgnitionWolf\API\Models\Automap\AutomapInterface;
+use Illuminate\Database\Eloquent\Model;
+
+class $CLASS$ implements AutomapInterface
+{
+    /**
+     * Automatically map an entity attribute.
+     *
+     * @param Model $entity
+     * @param string $attribute
+     * @return void
+     */
+    public function map(Model $entity, string $attribute)
+    {
+        //
+    }
+}
